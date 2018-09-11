@@ -1,0 +1,7 @@
+questions:
+    - variable: service.httpPort
+      default: 80
+      description: "Port to run Jenkins"
+      type: int
+      required: true
+      label: Port
